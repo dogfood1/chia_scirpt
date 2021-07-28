@@ -1,0 +1,10 @@
+#!/bin/bash
+screen -d -m -S chia01 bash -c 'while true; do date > /mnt/plot01/keep.awake; sleep 20; done'
+screen -d -m -S chia02 bash -c 'while true; do date > /mnt/plot02/keep.awake; sleep 20; done'
+screen -d -m -S chia03 bash -c 'while true; do date > /mnt/plot03/keep.awake; sleep 20; done'
+screen -d -m -S chia04 bash -c 'while true; do date > /mnt/plot04/keep.awake; sleep 20; done'
+screen -d -m -S chia05 bash -c 'while true; do date > /mnt/plot05/keep.awake; sleep 20; done'
+screen -d -m -S chia06 bash -c 'while true; do date > /mnt/plot06/keep.awake; sleep 20; done'
+screen -d -m -S chia07 bash -c 'while true; do date > /mnt/plot07/keep.awake; sleep 20; done'
+screen -d -m -S chia08 bash -c 'while true; do date > /mnt/plot08/keep.awake; sleep 20; done'
+screen -d -m -S chia09 bash -c 'while true; do date > /mnt/plot09/keep.awake; sleep 20; done'
